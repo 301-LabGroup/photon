@@ -8,6 +8,11 @@ public abstract class Shape {
         this.x = x;
         this.y = y;
     }
+
+    public Shape(int side) {
+        this.x = side;
+        this.y = side;
+    }
 }
 
 
