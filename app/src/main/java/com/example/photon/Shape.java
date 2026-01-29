@@ -3,6 +3,7 @@ package com.example.photon;
 public abstract class Shape {
     public int x;
     public int y;
+    String color = "Purple";
 
     public Shape(int x, int y) {
         this.x = x;
